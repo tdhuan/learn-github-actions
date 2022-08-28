@@ -90,6 +90,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.4.0
         id: deployment
         with: 
-          token: ${{secrets.GITHUB_TOKEN}}
+          token: ${{secrets.SUPER_MAN}}
           branch: gh-pages
           folder: out
