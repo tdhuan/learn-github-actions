@@ -91,5 +91,5 @@ jobs:
         id: deployment
         with: 
           token: ${{secrets.SUPER_MAN}}
-          branch: gh-pages
+          branch: master
           folder: out
